@@ -68,7 +68,7 @@ jobs:
   generate_docs:
     needs: build
     runs-on: ubuntu-latest
-    if: github.ref == 'refs/heads/main'  # Only run on main branch
+    if: ${{ always() && github.ref == 'refs/heads/main' }}  # Run even if test fails, but only on main branch
 
     steps:
     - uses: actions/checkout@v4
