@@ -42,3 +42,23 @@ jobs:
         name: dotnet-test-results
         path: TestResults
       if: ${{ always() }}
+
+  generate_docs:
+    needs: build
+    runs-on: ubuntu-latest
+    if: github.ref == 'refs/heads/main'  # Only run on main branch
+
+    steps:
+    - uses: actions/checkout@v4
+      name: Checkout code
+
+    - name: Generate Documentation
+      uses: nunit/docfx-action@v4.0.0
+      with:
+        args: docs/docfx.json
+
+    - name: Deploy to GitHub Pages
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: docs/_site
