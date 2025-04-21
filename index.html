@@ -2,9 +2,9 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>This is the HOMEPAGE. | HyperVectorDB </title>
+      <title>HyperVectorDB | HyperVectorDB </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="This is the HOMEPAGE. | HyperVectorDB ">
+      <meta name="title" content="HyperVectorDB | HyperVectorDB ">
       
       
       <link rel="icon" href="favicon.ico">
@@ -71,13 +71,61 @@
         </div>
 
         <article data-uid="">
-<h1 id="this-is-the-homepage">This is the <strong>HOMEPAGE</strong>.</h1>
+<h1 id="hypervectordb">HyperVectorDB</h1>
 
-<p>Refer to <a href="http://daringfireball.net/projects/markdown/">Markdown</a> for how to write markdown files.</p>
-<h2 id="quick-start-notes">Quick Start Notes:</h2>
-<ol>
-<li>Add images to the <em>images</em> folder if the file is referencing an image.</li>
-</ol>
+<p>HyperVectorDB is a local vector database built in C# that supports various distance/similarity measures. It is designed to store vectors and associated documents and perform high-performance vector queries. This project supports Cosine Similarity, Jaccard Dissimilarity, as well as Euclidean, Manhattan, Chebyshev, and Canberra distances.
+If you are looking for a python library to do the same thing check out John Dagdelen <a href="https://github.com/jdagdelen/hyperDB">https://github.com/jdagdelen/hyperDB</a></p>
+<h2 id="installation">Installation</h2>
+<pre><code>dotnet add package HyperVectorDB
+</code></pre>
+<h2 id="featuresto-be-updated">Features(To be updated)</h2>
+<ul>
+<li><strong>Query/Response Caching</strong>: Currently only supported for cosine similarity queries. This feature allows the database to cache the results of a query for a given vector, so that the next time the same vector is queried, the results are returned immediately. This feature is useful for applications that require frequent queries on the same vector.</li>
+<li><strong>Cache invalidation</strong>: Cache invalidation is supported for cosine similarity queries. The cache is invalidated when a new vector is added to the database, or when a vector is removed from the database.</li>
+<li><strong>Query Functions</strong>: The database supports several types of queries for similarity and distance measures:
+<ul>
+<li><strong>Cosine Similarity</strong>: This function performs a Cosine Similarity query on the database.</li>
+<li><strong>Jaccard Dissimilarity</strong>: This function performs a Jaccard Dissimilarity query on the database.</li>
+<li><strong>Euclidean Distance</strong>: This function performs a Euclidean Distance query on the database.</li>
+<li><strong>Manhattan Distance</strong>: This function performs a Manhattan Distance query on the database.</li>
+<li><strong>Chebyshev Distance</strong>: This function performs a Chebyshev Distance query on the database.</li>
+<li><strong>Canberra Distance</strong>: This function performs a Canberra Distance query on the database.</li>
+</ul>
+</li>
+<li><strong>Automatic Parallelization</strong>: When configured, the database will automatically split across multiple files and memory regions to take full advantage of async IO on store and multithreading on query.</li>
+<li><strong>Data Compression</strong>: When saved to disk, the database uses LZ4 compression</li>
+</ul>
+<p>Each query function returns the top <code>k</code> documents and their corresponding similarity or distance values. The value of <code>k</code> is configurable and defaults to 5.</p>
+<h2 id="usage">Usage</h2>
+<p>Usage is very straight-forward and is illustrated well by the example program in HyperVectorDBExample. A quick summary of the core elements:</p>
+<pre><code class="lang-csharp">var db = new HyperVectorDB(new Embedder.LmStudio(), &quot;MyDatabase&quot;);
+</code></pre>
+<p>The HyperVectorDB object is the core element of the library and the two things it needs to be provided are an <code>Embedder</code> object and a folder name. The folder name is treated as a path, which can be relative or absolute.</p>
+<pre><code class="lang-csharp">db.CreateIndex(&quot;MyIndex&quot;);
+</code></pre>
+<p>A <code>HyperVectorDB</code> contains one or more named indices. Support for multiple indices allows for seperation of indexed content if needed, or a single index can be used for everything.</p>
+<pre><code class="lang-csharp">db.IndexDocument(&quot;This is a test document about dogs&quot;);
+</code></pre>
+<p>Indexing of documents can be done in several ways, the most trivial being individual strings. When indexed this way, the whole string is vectorized and the vector stored in the index along with the string.</p>
+<pre><code class="lang-csharp">db.IndexDocumentFile(filepath, CustomPreprocessor, CustomPostprocessor);
+</code></pre>
+<p>Whole text files can also be indexed, in which case the files are split into lines (delimited be newline characters) and each line vectorized and the vectors stored in the index with the full path of the file and the line number where the line was found.</p>
+<p>This approach also provides the option to pass custom preprocessor and postprocessor methods that can be used to filter documents to eliminate spurious or uninteresting content. These methods are run for every line of the file and can return a processed string or <code>null</code> to indicate the line should be ignored completely. The preprocessor allows for modifying the text prior to vectorization, while the postprocessor allows for customizing how the data is represented in the index.</p>
+<pre><code class="lang-csharp">db.Save();
+db.Load();
+</code></pre>
+<p>As documents are indexed the database is written to disk periodically. The <code>Save()</code> method allows you to force a write to disk, while the <code>Load()</code> method forces a reload from disk, intuitively.</p>
+<pre><code class="lang-csharp">var results = db.QueryCosineSimilarity(&quot;dogs and cats&quot;, 10);
+</code></pre>
+<p>Ultimately, the point of building the database is to query it. There are multiple query methods available and all of them are expecting some string and a number indicating the maximum number of results desired.</p>
+<h2 id="contributing">Contributing</h2>
+<p>Contributions are welcome. Please feel free to fork the project, make changes, and open a pull request. Please make sure to test all changes thoroughly.</p>
+<h2 id="license">License</h2>
+<p>This project is open-source. Released under the MIT license. Please see the license file for more information.</p>
+<p>Please note that some of the code in this project(Math.cs) is based on Acord.Math library which is released under the GNU Lesser General Public License v2.1 license.
+TFIDF is from Kory Becker's project located at <a href="https://github.com/primaryobjects/TFIDF">https://github.com/primaryobjects/TFIDF</a></p>
+<h2 id="about-this-project-and-its-author-and-why-it-came-to-be">About this project and its author and why it came to be</h2>
+<p>It started out with me getting back into artificial intellegence and wanting to do so using c#.  I was unable to find anything that would suite my needs for a vector database.  Then John Dagdelen put together this vector store in python <a href="https://github.com/jdagdelen/hyperDB">https://github.com/jdagdelen/hyperDB</a>,  it was faily basic at the time posted without that many lines of code so I decided to try and use gpt to port it to c#.  This was somewhat successful but it did not quite work as needed so this project was born.</p>
 
 </article>
 
