@@ -38,8 +38,7 @@
     "globalMetadata": {
       "_appName": "HyperVectorDB",
       "_appTitle": "HyperVectorDB",
-      "_enableSearch": true,
-      "pdf": true
+      "_enableSearch": true
     }
   }
 }
