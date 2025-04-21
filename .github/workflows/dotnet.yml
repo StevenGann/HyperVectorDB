@@ -35,7 +35,6 @@ jobs:
   generate_docs:
     needs: build
     runs-on: ubuntu-latest
-    if: github.ref == 'refs/heads/main'  # Only run on main branch
 
     steps:
     - uses: actions/checkout@v4
