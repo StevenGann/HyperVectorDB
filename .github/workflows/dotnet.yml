@@ -51,6 +51,7 @@ jobs:
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         publish_dir: docs/_site
+        publish_branch: documentation  # Use a different branch for documentation
 
   test:
     needs: build
