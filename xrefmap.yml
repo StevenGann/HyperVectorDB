@@ -1,0 +1,586 @@
+### YamlMime:XRefMap
+sorted: true
+references:
+- uid: AutoIndexDoc
+  name: Auto Index Documentation
+  href: auto-index.html
+- uid: HyperVectorDB
+  name: HyperVectorDB
+  href: api/HyperVectorDB.html
+  commentId: N:HyperVectorDB
+  fullName: HyperVectorDB
+  nameWithType: HyperVectorDB
+- uid: HyperVectorDB.Embedder
+  name: HyperVectorDB.Embedder
+  href: api/HyperVectorDB.Embedder.html
+  commentId: N:HyperVectorDB.Embedder
+  fullName: HyperVectorDB.Embedder
+  nameWithType: HyperVectorDB.Embedder
+- uid: HyperVectorDB.Embedder.EmbedderOpenAI
+  name: EmbedderOpenAI
+  href: api/HyperVectorDB.Embedder.EmbedderOpenAI.html
+  commentId: T:HyperVectorDB.Embedder.EmbedderOpenAI
+  fullName: HyperVectorDB.Embedder.EmbedderOpenAI
+  nameWithType: EmbedderOpenAI
+- uid: HyperVectorDB.Embedder.EmbedderOpenAI.#ctor(System.String,HyperVectorDB.Embedder.EmbedderOpenAI.OAIEmbeddingModel)
+  name: EmbedderOpenAI(string, OAIEmbeddingModel)
+  href: api/HyperVectorDB.Embedder.EmbedderOpenAI.html#HyperVectorDB_Embedder_EmbedderOpenAI__ctor_System_String_HyperVectorDB_Embedder_EmbedderOpenAI_OAIEmbeddingModel_
+  commentId: M:HyperVectorDB.Embedder.EmbedderOpenAI.#ctor(System.String,HyperVectorDB.Embedder.EmbedderOpenAI.OAIEmbeddingModel)
+  name.vb: New(String, OAIEmbeddingModel)
+  fullName: HyperVectorDB.Embedder.EmbedderOpenAI.EmbedderOpenAI(string, HyperVectorDB.Embedder.EmbedderOpenAI.OAIEmbeddingModel)
+  fullName.vb: HyperVectorDB.Embedder.EmbedderOpenAI.New(String, HyperVectorDB.Embedder.EmbedderOpenAI.OAIEmbeddingModel)
+  nameWithType: EmbedderOpenAI.EmbedderOpenAI(string, EmbedderOpenAI.OAIEmbeddingModel)
+  nameWithType.vb: EmbedderOpenAI.New(String, EmbedderOpenAI.OAIEmbeddingModel)
+- uid: HyperVectorDB.Embedder.EmbedderOpenAI.#ctor*
+  name: EmbedderOpenAI
+  href: api/HyperVectorDB.Embedder.EmbedderOpenAI.html#HyperVectorDB_Embedder_EmbedderOpenAI__ctor_
+  commentId: Overload:HyperVectorDB.Embedder.EmbedderOpenAI.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: HyperVectorDB.Embedder.EmbedderOpenAI.EmbedderOpenAI
+  fullName.vb: HyperVectorDB.Embedder.EmbedderOpenAI.New
+  nameWithType: EmbedderOpenAI.EmbedderOpenAI
+  nameWithType.vb: EmbedderOpenAI.New
+- uid: HyperVectorDB.Embedder.EmbedderOpenAI.GetVector(System.String)
+  name: GetVector(string)
+  href: api/HyperVectorDB.Embedder.EmbedderOpenAI.html#HyperVectorDB_Embedder_EmbedderOpenAI_GetVector_System_String_
+  commentId: M:HyperVectorDB.Embedder.EmbedderOpenAI.GetVector(System.String)
+  name.vb: GetVector(String)
+  fullName: HyperVectorDB.Embedder.EmbedderOpenAI.GetVector(string)
+  fullName.vb: HyperVectorDB.Embedder.EmbedderOpenAI.GetVector(String)
+  nameWithType: EmbedderOpenAI.GetVector(string)
+  nameWithType.vb: EmbedderOpenAI.GetVector(String)
+- uid: HyperVectorDB.Embedder.EmbedderOpenAI.GetVector*
+  name: GetVector
+  href: api/HyperVectorDB.Embedder.EmbedderOpenAI.html#HyperVectorDB_Embedder_EmbedderOpenAI_GetVector_
+  commentId: Overload:HyperVectorDB.Embedder.EmbedderOpenAI.GetVector
+  isSpec: "True"
+  fullName: HyperVectorDB.Embedder.EmbedderOpenAI.GetVector
+  nameWithType: EmbedderOpenAI.GetVector
+- uid: HyperVectorDB.Embedder.EmbedderOpenAI.GetVectors(System.String[])
+  name: GetVectors(string[])
+  href: api/HyperVectorDB.Embedder.EmbedderOpenAI.html#HyperVectorDB_Embedder_EmbedderOpenAI_GetVectors_System_String___
+  commentId: M:HyperVectorDB.Embedder.EmbedderOpenAI.GetVectors(System.String[])
+  name.vb: GetVectors(String())
+  fullName: HyperVectorDB.Embedder.EmbedderOpenAI.GetVectors(string[])
+  fullName.vb: HyperVectorDB.Embedder.EmbedderOpenAI.GetVectors(String())
+  nameWithType: EmbedderOpenAI.GetVectors(string[])
+  nameWithType.vb: EmbedderOpenAI.GetVectors(String())
+- uid: HyperVectorDB.Embedder.EmbedderOpenAI.GetVectors*
+  name: GetVectors
+  href: api/HyperVectorDB.Embedder.EmbedderOpenAI.html#HyperVectorDB_Embedder_EmbedderOpenAI_GetVectors_
+  commentId: Overload:HyperVectorDB.Embedder.EmbedderOpenAI.GetVectors
+  isSpec: "True"
+  fullName: HyperVectorDB.Embedder.EmbedderOpenAI.GetVectors
+  nameWithType: EmbedderOpenAI.GetVectors
+- uid: HyperVectorDB.Embedder.EmbedderOpenAI.OAIEmbeddingModel
+  name: EmbedderOpenAI.OAIEmbeddingModel
+  href: api/HyperVectorDB.Embedder.EmbedderOpenAI.OAIEmbeddingModel.html
+  commentId: T:HyperVectorDB.Embedder.EmbedderOpenAI.OAIEmbeddingModel
+  fullName: HyperVectorDB.Embedder.EmbedderOpenAI.OAIEmbeddingModel
+  nameWithType: EmbedderOpenAI.OAIEmbeddingModel
+- uid: HyperVectorDB.Embedder.EmbedderOpenAI.OAIEmbeddingModel.ada_v2
+  name: ada_v2
+  href: api/HyperVectorDB.Embedder.EmbedderOpenAI.OAIEmbeddingModel.html#HyperVectorDB_Embedder_EmbedderOpenAI_OAIEmbeddingModel_ada_v2
+  commentId: F:HyperVectorDB.Embedder.EmbedderOpenAI.OAIEmbeddingModel.ada_v2
+  fullName: HyperVectorDB.Embedder.EmbedderOpenAI.OAIEmbeddingModel.ada_v2
+  nameWithType: EmbedderOpenAI.OAIEmbeddingModel.ada_v2
+- uid: HyperVectorDB.Embedder.EmbedderOpenAI.OAIEmbeddingModel.text_embedding_3_large
+  name: text_embedding_3_large
+  href: api/HyperVectorDB.Embedder.EmbedderOpenAI.OAIEmbeddingModel.html#HyperVectorDB_Embedder_EmbedderOpenAI_OAIEmbeddingModel_text_embedding_3_large
+  commentId: F:HyperVectorDB.Embedder.EmbedderOpenAI.OAIEmbeddingModel.text_embedding_3_large
+  fullName: HyperVectorDB.Embedder.EmbedderOpenAI.OAIEmbeddingModel.text_embedding_3_large
+  nameWithType: EmbedderOpenAI.OAIEmbeddingModel.text_embedding_3_large
+- uid: HyperVectorDB.Embedder.EmbedderOpenAI.OAIEmbeddingModel.text_embedding_3_small
+  name: text_embedding_3_small
+  href: api/HyperVectorDB.Embedder.EmbedderOpenAI.OAIEmbeddingModel.html#HyperVectorDB_Embedder_EmbedderOpenAI_OAIEmbeddingModel_text_embedding_3_small
+  commentId: F:HyperVectorDB.Embedder.EmbedderOpenAI.OAIEmbeddingModel.text_embedding_3_small
+  fullName: HyperVectorDB.Embedder.EmbedderOpenAI.OAIEmbeddingModel.text_embedding_3_small
+  nameWithType: EmbedderOpenAI.OAIEmbeddingModel.text_embedding_3_small
+- uid: HyperVectorDB.Embedder.EmbedderOpenAI.TotalTokens
+  name: TotalTokens
+  href: api/HyperVectorDB.Embedder.EmbedderOpenAI.html#HyperVectorDB_Embedder_EmbedderOpenAI_TotalTokens
+  commentId: F:HyperVectorDB.Embedder.EmbedderOpenAI.TotalTokens
+  fullName: HyperVectorDB.Embedder.EmbedderOpenAI.TotalTokens
+  nameWithType: EmbedderOpenAI.TotalTokens
+- uid: HyperVectorDB.Embedder.EmbedderOpenAI_ADA_002
+  name: EmbedderOpenAI_ADA_002
+  href: api/HyperVectorDB.Embedder.EmbedderOpenAI_ADA_002.html
+  commentId: T:HyperVectorDB.Embedder.EmbedderOpenAI_ADA_002
+  fullName: HyperVectorDB.Embedder.EmbedderOpenAI_ADA_002
+  nameWithType: EmbedderOpenAI_ADA_002
+- uid: HyperVectorDB.Embedder.EmbedderOpenAI_ADA_002.#ctor(System.String)
+  name: EmbedderOpenAI_ADA_002(string)
+  href: api/HyperVectorDB.Embedder.EmbedderOpenAI_ADA_002.html#HyperVectorDB_Embedder_EmbedderOpenAI_ADA_002__ctor_System_String_
+  commentId: M:HyperVectorDB.Embedder.EmbedderOpenAI_ADA_002.#ctor(System.String)
+  name.vb: New(String)
+  fullName: HyperVectorDB.Embedder.EmbedderOpenAI_ADA_002.EmbedderOpenAI_ADA_002(string)
+  fullName.vb: HyperVectorDB.Embedder.EmbedderOpenAI_ADA_002.New(String)
+  nameWithType: EmbedderOpenAI_ADA_002.EmbedderOpenAI_ADA_002(string)
+  nameWithType.vb: EmbedderOpenAI_ADA_002.New(String)
+- uid: HyperVectorDB.Embedder.EmbedderOpenAI_ADA_002.#ctor*
+  name: EmbedderOpenAI_ADA_002
+  href: api/HyperVectorDB.Embedder.EmbedderOpenAI_ADA_002.html#HyperVectorDB_Embedder_EmbedderOpenAI_ADA_002__ctor_
+  commentId: Overload:HyperVectorDB.Embedder.EmbedderOpenAI_ADA_002.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: HyperVectorDB.Embedder.EmbedderOpenAI_ADA_002.EmbedderOpenAI_ADA_002
+  fullName.vb: HyperVectorDB.Embedder.EmbedderOpenAI_ADA_002.New
+  nameWithType: EmbedderOpenAI_ADA_002.EmbedderOpenAI_ADA_002
+  nameWithType.vb: EmbedderOpenAI_ADA_002.New
+- uid: HyperVectorDB.Embedder.EmbedderOpenAI_ADA_002.GetVector(System.String)
+  name: GetVector(string)
+  href: api/HyperVectorDB.Embedder.EmbedderOpenAI_ADA_002.html#HyperVectorDB_Embedder_EmbedderOpenAI_ADA_002_GetVector_System_String_
+  commentId: M:HyperVectorDB.Embedder.EmbedderOpenAI_ADA_002.GetVector(System.String)
+  name.vb: GetVector(String)
+  fullName: HyperVectorDB.Embedder.EmbedderOpenAI_ADA_002.GetVector(string)
+  fullName.vb: HyperVectorDB.Embedder.EmbedderOpenAI_ADA_002.GetVector(String)
+  nameWithType: EmbedderOpenAI_ADA_002.GetVector(string)
+  nameWithType.vb: EmbedderOpenAI_ADA_002.GetVector(String)
+- uid: HyperVectorDB.Embedder.EmbedderOpenAI_ADA_002.GetVector*
+  name: GetVector
+  href: api/HyperVectorDB.Embedder.EmbedderOpenAI_ADA_002.html#HyperVectorDB_Embedder_EmbedderOpenAI_ADA_002_GetVector_
+  commentId: Overload:HyperVectorDB.Embedder.EmbedderOpenAI_ADA_002.GetVector
+  isSpec: "True"
+  fullName: HyperVectorDB.Embedder.EmbedderOpenAI_ADA_002.GetVector
+  nameWithType: EmbedderOpenAI_ADA_002.GetVector
+- uid: HyperVectorDB.Embedder.EmbedderOpenAI_ADA_002.GetVectors(System.String[])
+  name: GetVectors(string[])
+  href: api/HyperVectorDB.Embedder.EmbedderOpenAI_ADA_002.html#HyperVectorDB_Embedder_EmbedderOpenAI_ADA_002_GetVectors_System_String___
+  commentId: M:HyperVectorDB.Embedder.EmbedderOpenAI_ADA_002.GetVectors(System.String[])
+  name.vb: GetVectors(String())
+  fullName: HyperVectorDB.Embedder.EmbedderOpenAI_ADA_002.GetVectors(string[])
+  fullName.vb: HyperVectorDB.Embedder.EmbedderOpenAI_ADA_002.GetVectors(String())
+  nameWithType: EmbedderOpenAI_ADA_002.GetVectors(string[])
+  nameWithType.vb: EmbedderOpenAI_ADA_002.GetVectors(String())
+- uid: HyperVectorDB.Embedder.EmbedderOpenAI_ADA_002.GetVectors*
+  name: GetVectors
+  href: api/HyperVectorDB.Embedder.EmbedderOpenAI_ADA_002.html#HyperVectorDB_Embedder_EmbedderOpenAI_ADA_002_GetVectors_
+  commentId: Overload:HyperVectorDB.Embedder.EmbedderOpenAI_ADA_002.GetVectors
+  isSpec: "True"
+  fullName: HyperVectorDB.Embedder.EmbedderOpenAI_ADA_002.GetVectors
+  nameWithType: EmbedderOpenAI_ADA_002.GetVectors
+- uid: HyperVectorDB.Embedder.EmbedderOpenAI_ADA_002.TotalTokens
+  name: TotalTokens
+  href: api/HyperVectorDB.Embedder.EmbedderOpenAI_ADA_002.html#HyperVectorDB_Embedder_EmbedderOpenAI_ADA_002_TotalTokens
+  commentId: F:HyperVectorDB.Embedder.EmbedderOpenAI_ADA_002.TotalTokens
+  fullName: HyperVectorDB.Embedder.EmbedderOpenAI_ADA_002.TotalTokens
+  nameWithType: EmbedderOpenAI_ADA_002.TotalTokens
+- uid: HyperVectorDB.Embedder.IEmbedder
+  name: IEmbedder
+  href: api/HyperVectorDB.Embedder.IEmbedder.html
+  commentId: T:HyperVectorDB.Embedder.IEmbedder
+  fullName: HyperVectorDB.Embedder.IEmbedder
+  nameWithType: IEmbedder
+- uid: HyperVectorDB.Embedder.IEmbedder.GetVector(System.String)
+  name: GetVector(string)
+  href: api/HyperVectorDB.Embedder.IEmbedder.html#HyperVectorDB_Embedder_IEmbedder_GetVector_System_String_
+  commentId: M:HyperVectorDB.Embedder.IEmbedder.GetVector(System.String)
+  name.vb: GetVector(String)
+  fullName: HyperVectorDB.Embedder.IEmbedder.GetVector(string)
+  fullName.vb: HyperVectorDB.Embedder.IEmbedder.GetVector(String)
+  nameWithType: IEmbedder.GetVector(string)
+  nameWithType.vb: IEmbedder.GetVector(String)
+- uid: HyperVectorDB.Embedder.IEmbedder.GetVector*
+  name: GetVector
+  href: api/HyperVectorDB.Embedder.IEmbedder.html#HyperVectorDB_Embedder_IEmbedder_GetVector_
+  commentId: Overload:HyperVectorDB.Embedder.IEmbedder.GetVector
+  isSpec: "True"
+  fullName: HyperVectorDB.Embedder.IEmbedder.GetVector
+  nameWithType: IEmbedder.GetVector
+- uid: HyperVectorDB.Embedder.IEmbedder.GetVectors(System.String[])
+  name: GetVectors(string[])
+  href: api/HyperVectorDB.Embedder.IEmbedder.html#HyperVectorDB_Embedder_IEmbedder_GetVectors_System_String___
+  commentId: M:HyperVectorDB.Embedder.IEmbedder.GetVectors(System.String[])
+  name.vb: GetVectors(String())
+  fullName: HyperVectorDB.Embedder.IEmbedder.GetVectors(string[])
+  fullName.vb: HyperVectorDB.Embedder.IEmbedder.GetVectors(String())
+  nameWithType: IEmbedder.GetVectors(string[])
+  nameWithType.vb: IEmbedder.GetVectors(String())
+- uid: HyperVectorDB.Embedder.IEmbedder.GetVectors*
+  name: GetVectors
+  href: api/HyperVectorDB.Embedder.IEmbedder.html#HyperVectorDB_Embedder_IEmbedder_GetVectors_
+  commentId: Overload:HyperVectorDB.Embedder.IEmbedder.GetVectors
+  isSpec: "True"
+  fullName: HyperVectorDB.Embedder.IEmbedder.GetVectors
+  nameWithType: IEmbedder.GetVectors
+- uid: HyperVectorDB.Embedder.LmStudio
+  name: LmStudio
+  href: api/HyperVectorDB.Embedder.LmStudio.html
+  commentId: T:HyperVectorDB.Embedder.LmStudio
+  fullName: HyperVectorDB.Embedder.LmStudio
+  nameWithType: LmStudio
+- uid: HyperVectorDB.Embedder.LmStudio.GetVector(System.String)
+  name: GetVector(string)
+  href: api/HyperVectorDB.Embedder.LmStudio.html#HyperVectorDB_Embedder_LmStudio_GetVector_System_String_
+  commentId: M:HyperVectorDB.Embedder.LmStudio.GetVector(System.String)
+  name.vb: GetVector(String)
+  fullName: HyperVectorDB.Embedder.LmStudio.GetVector(string)
+  fullName.vb: HyperVectorDB.Embedder.LmStudio.GetVector(String)
+  nameWithType: LmStudio.GetVector(string)
+  nameWithType.vb: LmStudio.GetVector(String)
+- uid: HyperVectorDB.Embedder.LmStudio.GetVector*
+  name: GetVector
+  href: api/HyperVectorDB.Embedder.LmStudio.html#HyperVectorDB_Embedder_LmStudio_GetVector_
+  commentId: Overload:HyperVectorDB.Embedder.LmStudio.GetVector
+  isSpec: "True"
+  fullName: HyperVectorDB.Embedder.LmStudio.GetVector
+  nameWithType: LmStudio.GetVector
+- uid: HyperVectorDB.Embedder.LmStudio.GetVectors(System.String[])
+  name: GetVectors(string[])
+  href: api/HyperVectorDB.Embedder.LmStudio.html#HyperVectorDB_Embedder_LmStudio_GetVectors_System_String___
+  commentId: M:HyperVectorDB.Embedder.LmStudio.GetVectors(System.String[])
+  name.vb: GetVectors(String())
+  fullName: HyperVectorDB.Embedder.LmStudio.GetVectors(string[])
+  fullName.vb: HyperVectorDB.Embedder.LmStudio.GetVectors(String())
+  nameWithType: LmStudio.GetVectors(string[])
+  nameWithType.vb: LmStudio.GetVectors(String())
+- uid: HyperVectorDB.Embedder.LmStudio.GetVectors*
+  name: GetVectors
+  href: api/HyperVectorDB.Embedder.LmStudio.html#HyperVectorDB_Embedder_LmStudio_GetVectors_
+  commentId: Overload:HyperVectorDB.Embedder.LmStudio.GetVectors
+  isSpec: "True"
+  fullName: HyperVectorDB.Embedder.LmStudio.GetVectors
+  nameWithType: LmStudio.GetVectors
+- uid: HyperVectorDB.Embedder.LmStudio.Model
+  name: Model
+  href: api/HyperVectorDB.Embedder.LmStudio.html#HyperVectorDB_Embedder_LmStudio_Model
+  commentId: P:HyperVectorDB.Embedder.LmStudio.Model
+  fullName: HyperVectorDB.Embedder.LmStudio.Model
+  nameWithType: LmStudio.Model
+- uid: HyperVectorDB.Embedder.LmStudio.Model*
+  name: Model
+  href: api/HyperVectorDB.Embedder.LmStudio.html#HyperVectorDB_Embedder_LmStudio_Model_
+  commentId: Overload:HyperVectorDB.Embedder.LmStudio.Model
+  isSpec: "True"
+  fullName: HyperVectorDB.Embedder.LmStudio.Model
+  nameWithType: LmStudio.Model
+- uid: HyperVectorDB.Embedder.LmStudio.URL
+  name: URL
+  href: api/HyperVectorDB.Embedder.LmStudio.html#HyperVectorDB_Embedder_LmStudio_URL
+  commentId: P:HyperVectorDB.Embedder.LmStudio.URL
+  fullName: HyperVectorDB.Embedder.LmStudio.URL
+  nameWithType: LmStudio.URL
+- uid: HyperVectorDB.Embedder.LmStudio.URL*
+  name: URL
+  href: api/HyperVectorDB.Embedder.LmStudio.html#HyperVectorDB_Embedder_LmStudio_URL_
+  commentId: Overload:HyperVectorDB.Embedder.LmStudio.URL
+  isSpec: "True"
+  fullName: HyperVectorDB.Embedder.LmStudio.URL
+  nameWithType: LmStudio.URL
+- uid: HyperVectorDB.HVDBDocument
+  name: HVDBDocument
+  href: api/HyperVectorDB.HVDBDocument.html
+  commentId: T:HyperVectorDB.HVDBDocument
+  fullName: HyperVectorDB.HVDBDocument
+  nameWithType: HVDBDocument
+- uid: HyperVectorDB.HVDBDocument.#ctor
+  name: HVDBDocument()
+  href: api/HyperVectorDB.HVDBDocument.html#HyperVectorDB_HVDBDocument__ctor
+  commentId: M:HyperVectorDB.HVDBDocument.#ctor
+  name.vb: New()
+  fullName: HyperVectorDB.HVDBDocument.HVDBDocument()
+  fullName.vb: HyperVectorDB.HVDBDocument.New()
+  nameWithType: HVDBDocument.HVDBDocument()
+  nameWithType.vb: HVDBDocument.New()
+- uid: HyperVectorDB.HVDBDocument.#ctor(System.String)
+  name: HVDBDocument(string)
+  href: api/HyperVectorDB.HVDBDocument.html#HyperVectorDB_HVDBDocument__ctor_System_String_
+  commentId: M:HyperVectorDB.HVDBDocument.#ctor(System.String)
+  name.vb: New(String)
+  fullName: HyperVectorDB.HVDBDocument.HVDBDocument(string)
+  fullName.vb: HyperVectorDB.HVDBDocument.New(String)
+  nameWithType: HVDBDocument.HVDBDocument(string)
+  nameWithType.vb: HVDBDocument.New(String)
+- uid: HyperVectorDB.HVDBDocument.#ctor(System.String,System.String)
+  name: HVDBDocument(string, string)
+  href: api/HyperVectorDB.HVDBDocument.html#HyperVectorDB_HVDBDocument__ctor_System_String_System_String_
+  commentId: M:HyperVectorDB.HVDBDocument.#ctor(System.String,System.String)
+  name.vb: New(String, String)
+  fullName: HyperVectorDB.HVDBDocument.HVDBDocument(string, string)
+  fullName.vb: HyperVectorDB.HVDBDocument.New(String, String)
+  nameWithType: HVDBDocument.HVDBDocument(string, string)
+  nameWithType.vb: HVDBDocument.New(String, String)
+- uid: HyperVectorDB.HVDBDocument.#ctor*
+  name: HVDBDocument
+  href: api/HyperVectorDB.HVDBDocument.html#HyperVectorDB_HVDBDocument__ctor_
+  commentId: Overload:HyperVectorDB.HVDBDocument.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: HyperVectorDB.HVDBDocument.HVDBDocument
+  fullName.vb: HyperVectorDB.HVDBDocument.New
+  nameWithType: HVDBDocument.HVDBDocument
+  nameWithType.vb: HVDBDocument.New
+- uid: HyperVectorDB.HVDBDocument.DocumentString
+  name: DocumentString
+  href: api/HyperVectorDB.HVDBDocument.html#HyperVectorDB_HVDBDocument_DocumentString
+  commentId: P:HyperVectorDB.HVDBDocument.DocumentString
+  fullName: HyperVectorDB.HVDBDocument.DocumentString
+  nameWithType: HVDBDocument.DocumentString
+- uid: HyperVectorDB.HVDBDocument.DocumentString*
+  name: DocumentString
+  href: api/HyperVectorDB.HVDBDocument.html#HyperVectorDB_HVDBDocument_DocumentString_
+  commentId: Overload:HyperVectorDB.HVDBDocument.DocumentString
+  isSpec: "True"
+  fullName: HyperVectorDB.HVDBDocument.DocumentString
+  nameWithType: HVDBDocument.DocumentString
+- uid: HyperVectorDB.HVDBDocument.ID
+  name: ID
+  href: api/HyperVectorDB.HVDBDocument.html#HyperVectorDB_HVDBDocument_ID
+  commentId: P:HyperVectorDB.HVDBDocument.ID
+  fullName: HyperVectorDB.HVDBDocument.ID
+  nameWithType: HVDBDocument.ID
+- uid: HyperVectorDB.HVDBDocument.ID*
+  name: ID
+  href: api/HyperVectorDB.HVDBDocument.html#HyperVectorDB_HVDBDocument_ID_
+  commentId: Overload:HyperVectorDB.HVDBDocument.ID
+  isSpec: "True"
+  fullName: HyperVectorDB.HVDBDocument.ID
+  nameWithType: HVDBDocument.ID
+- uid: HyperVectorDB.HVDBQueryResult
+  name: HVDBQueryResult
+  href: api/HyperVectorDB.HVDBQueryResult.html
+  commentId: T:HyperVectorDB.HVDBQueryResult
+  fullName: HyperVectorDB.HVDBQueryResult
+  nameWithType: HVDBQueryResult
+- uid: HyperVectorDB.HVDBQueryResult.#ctor(System.Collections.Generic.List{HyperVectorDB.HVDBDocument},System.Collections.Generic.List{System.Double})
+  name: HVDBQueryResult(List<HVDBDocument>, List<double>)
+  href: api/HyperVectorDB.HVDBQueryResult.html#HyperVectorDB_HVDBQueryResult__ctor_System_Collections_Generic_List_HyperVectorDB_HVDBDocument__System_Collections_Generic_List_System_Double__
+  commentId: M:HyperVectorDB.HVDBQueryResult.#ctor(System.Collections.Generic.List{HyperVectorDB.HVDBDocument},System.Collections.Generic.List{System.Double})
+  name.vb: New(List(Of HVDBDocument), List(Of Double))
+  fullName: HyperVectorDB.HVDBQueryResult.HVDBQueryResult(System.Collections.Generic.List<HyperVectorDB.HVDBDocument>, System.Collections.Generic.List<double>)
+  fullName.vb: HyperVectorDB.HVDBQueryResult.New(System.Collections.Generic.List(Of HyperVectorDB.HVDBDocument), System.Collections.Generic.List(Of Double))
+  nameWithType: HVDBQueryResult.HVDBQueryResult(List<HVDBDocument>, List<double>)
+  nameWithType.vb: HVDBQueryResult.New(List(Of HVDBDocument), List(Of Double))
+- uid: HyperVectorDB.HVDBQueryResult.#ctor*
+  name: HVDBQueryResult
+  href: api/HyperVectorDB.HVDBQueryResult.html#HyperVectorDB_HVDBQueryResult__ctor_
+  commentId: Overload:HyperVectorDB.HVDBQueryResult.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: HyperVectorDB.HVDBQueryResult.HVDBQueryResult
+  fullName.vb: HyperVectorDB.HVDBQueryResult.New
+  nameWithType: HVDBQueryResult.HVDBQueryResult
+  nameWithType.vb: HVDBQueryResult.New
+- uid: HyperVectorDB.HVDBQueryResult.Distances
+  name: Distances
+  href: api/HyperVectorDB.HVDBQueryResult.html#HyperVectorDB_HVDBQueryResult_Distances
+  commentId: P:HyperVectorDB.HVDBQueryResult.Distances
+  fullName: HyperVectorDB.HVDBQueryResult.Distances
+  nameWithType: HVDBQueryResult.Distances
+- uid: HyperVectorDB.HVDBQueryResult.Distances*
+  name: Distances
+  href: api/HyperVectorDB.HVDBQueryResult.html#HyperVectorDB_HVDBQueryResult_Distances_
+  commentId: Overload:HyperVectorDB.HVDBQueryResult.Distances
+  isSpec: "True"
+  fullName: HyperVectorDB.HVDBQueryResult.Distances
+  nameWithType: HVDBQueryResult.Distances
+- uid: HyperVectorDB.HVDBQueryResult.Documents
+  name: Documents
+  href: api/HyperVectorDB.HVDBQueryResult.html#HyperVectorDB_HVDBQueryResult_Documents
+  commentId: P:HyperVectorDB.HVDBQueryResult.Documents
+  fullName: HyperVectorDB.HVDBQueryResult.Documents
+  nameWithType: HVDBQueryResult.Documents
+- uid: HyperVectorDB.HVDBQueryResult.Documents*
+  name: Documents
+  href: api/HyperVectorDB.HVDBQueryResult.html#HyperVectorDB_HVDBQueryResult_Documents_
+  commentId: Overload:HyperVectorDB.HVDBQueryResult.Documents
+  isSpec: "True"
+  fullName: HyperVectorDB.HVDBQueryResult.Documents
+  nameWithType: HVDBQueryResult.Documents
+- uid: HyperVectorDB.HyperVectorDB
+  name: HyperVectorDB
+  href: api/HyperVectorDB.HyperVectorDB.html
+  commentId: T:HyperVectorDB.HyperVectorDB
+  fullName: HyperVectorDB.HyperVectorDB
+  nameWithType: HyperVectorDB
+- uid: HyperVectorDB.HyperVectorDB.#ctor(HyperVectorDB.Embedder.IEmbedder,System.String,System.Int32)
+  name: HyperVectorDB(IEmbedder, string, int)
+  href: api/HyperVectorDB.HyperVectorDB.html#HyperVectorDB_HyperVectorDB__ctor_HyperVectorDB_Embedder_IEmbedder_System_String_System_Int32_
+  commentId: M:HyperVectorDB.HyperVectorDB.#ctor(HyperVectorDB.Embedder.IEmbedder,System.String,System.Int32)
+  name.vb: New(IEmbedder, String, Integer)
+  fullName: HyperVectorDB.HyperVectorDB.HyperVectorDB(HyperVectorDB.Embedder.IEmbedder, string, int)
+  fullName.vb: HyperVectorDB.HyperVectorDB.New(HyperVectorDB.Embedder.IEmbedder, String, Integer)
+  nameWithType: HyperVectorDB.HyperVectorDB(IEmbedder, string, int)
+  nameWithType.vb: HyperVectorDB.New(IEmbedder, String, Integer)
+- uid: HyperVectorDB.HyperVectorDB.#ctor*
+  name: HyperVectorDB
+  href: api/HyperVectorDB.HyperVectorDB.html#HyperVectorDB_HyperVectorDB__ctor_
+  commentId: Overload:HyperVectorDB.HyperVectorDB.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: HyperVectorDB.HyperVectorDB.HyperVectorDB
+  fullName.vb: HyperVectorDB.HyperVectorDB.New
+  nameWithType: HyperVectorDB.HyperVectorDB
+  nameWithType.vb: HyperVectorDB.New
+- uid: HyperVectorDB.HyperVectorDB.CreateIndex(System.String)
+  name: CreateIndex(string)
+  href: api/HyperVectorDB.HyperVectorDB.html#HyperVectorDB_HyperVectorDB_CreateIndex_System_String_
+  commentId: M:HyperVectorDB.HyperVectorDB.CreateIndex(System.String)
+  name.vb: CreateIndex(String)
+  fullName: HyperVectorDB.HyperVectorDB.CreateIndex(string)
+  fullName.vb: HyperVectorDB.HyperVectorDB.CreateIndex(String)
+  nameWithType: HyperVectorDB.CreateIndex(string)
+  nameWithType.vb: HyperVectorDB.CreateIndex(String)
+- uid: HyperVectorDB.HyperVectorDB.CreateIndex*
+  name: CreateIndex
+  href: api/HyperVectorDB.HyperVectorDB.html#HyperVectorDB_HyperVectorDB_CreateIndex_
+  commentId: Overload:HyperVectorDB.HyperVectorDB.CreateIndex
+  isSpec: "True"
+  fullName: HyperVectorDB.HyperVectorDB.CreateIndex
+  nameWithType: HyperVectorDB.CreateIndex
+- uid: HyperVectorDB.HyperVectorDB.DatabasePath
+  name: DatabasePath
+  href: api/HyperVectorDB.HyperVectorDB.html#HyperVectorDB_HyperVectorDB_DatabasePath
+  commentId: F:HyperVectorDB.HyperVectorDB.DatabasePath
+  fullName: HyperVectorDB.HyperVectorDB.DatabasePath
+  nameWithType: HyperVectorDB.DatabasePath
+- uid: HyperVectorDB.HyperVectorDB.DeleteDocument(System.Double[])
+  name: DeleteDocument(double[])
+  href: api/HyperVectorDB.HyperVectorDB.html#HyperVectorDB_HyperVectorDB_DeleteDocument_System_Double___
+  commentId: M:HyperVectorDB.HyperVectorDB.DeleteDocument(System.Double[])
+  name.vb: DeleteDocument(Double())
+  fullName: HyperVectorDB.HyperVectorDB.DeleteDocument(double[])
+  fullName.vb: HyperVectorDB.HyperVectorDB.DeleteDocument(Double())
+  nameWithType: HyperVectorDB.DeleteDocument(double[])
+  nameWithType.vb: HyperVectorDB.DeleteDocument(Double())
+- uid: HyperVectorDB.HyperVectorDB.DeleteDocument*
+  name: DeleteDocument
+  href: api/HyperVectorDB.HyperVectorDB.html#HyperVectorDB_HyperVectorDB_DeleteDocument_
+  commentId: Overload:HyperVectorDB.HyperVectorDB.DeleteDocument
+  isSpec: "True"
+  fullName: HyperVectorDB.HyperVectorDB.DeleteDocument
+  nameWithType: HyperVectorDB.DeleteDocument
+- uid: HyperVectorDB.HyperVectorDB.DeleteIndex(System.String)
+  name: DeleteIndex(string)
+  href: api/HyperVectorDB.HyperVectorDB.html#HyperVectorDB_HyperVectorDB_DeleteIndex_System_String_
+  commentId: M:HyperVectorDB.HyperVectorDB.DeleteIndex(System.String)
+  name.vb: DeleteIndex(String)
+  fullName: HyperVectorDB.HyperVectorDB.DeleteIndex(string)
+  fullName.vb: HyperVectorDB.HyperVectorDB.DeleteIndex(String)
+  nameWithType: HyperVectorDB.DeleteIndex(string)
+  nameWithType.vb: HyperVectorDB.DeleteIndex(String)
+- uid: HyperVectorDB.HyperVectorDB.DeleteIndex*
+  name: DeleteIndex
+  href: api/HyperVectorDB.HyperVectorDB.html#HyperVectorDB_HyperVectorDB_DeleteIndex_
+  commentId: Overload:HyperVectorDB.HyperVectorDB.DeleteIndex
+  isSpec: "True"
+  fullName: HyperVectorDB.HyperVectorDB.DeleteIndex
+  nameWithType: HyperVectorDB.DeleteIndex
+- uid: HyperVectorDB.HyperVectorDB.DocumentPostprocessor
+  name: HyperVectorDB.DocumentPostprocessor
+  href: api/HyperVectorDB.HyperVectorDB.DocumentPostprocessor.html
+  commentId: T:HyperVectorDB.HyperVectorDB.DocumentPostprocessor
+  fullName: HyperVectorDB.HyperVectorDB.DocumentPostprocessor
+  nameWithType: HyperVectorDB.DocumentPostprocessor
+- uid: HyperVectorDB.HyperVectorDB.DocumentPreprocessor
+  name: HyperVectorDB.DocumentPreprocessor
+  href: api/HyperVectorDB.HyperVectorDB.DocumentPreprocessor.html
+  commentId: T:HyperVectorDB.HyperVectorDB.DocumentPreprocessor
+  fullName: HyperVectorDB.HyperVectorDB.DocumentPreprocessor
+  nameWithType: HyperVectorDB.DocumentPreprocessor
+- uid: HyperVectorDB.HyperVectorDB.IndexDocument(System.String,HyperVectorDB.HyperVectorDB.DocumentPreprocessor,HyperVectorDB.HyperVectorDB.DocumentPostprocessor,System.String)
+  name: IndexDocument(string, DocumentPreprocessor?, DocumentPostprocessor?, string?)
+  href: api/HyperVectorDB.HyperVectorDB.html#HyperVectorDB_HyperVectorDB_IndexDocument_System_String_HyperVectorDB_HyperVectorDB_DocumentPreprocessor_HyperVectorDB_HyperVectorDB_DocumentPostprocessor_System_String_
+  commentId: M:HyperVectorDB.HyperVectorDB.IndexDocument(System.String,HyperVectorDB.HyperVectorDB.DocumentPreprocessor,HyperVectorDB.HyperVectorDB.DocumentPostprocessor,System.String)
+  name.vb: IndexDocument(String, DocumentPreprocessor, DocumentPostprocessor, String)
+  fullName: HyperVectorDB.HyperVectorDB.IndexDocument(string, HyperVectorDB.HyperVectorDB.DocumentPreprocessor?, HyperVectorDB.HyperVectorDB.DocumentPostprocessor?, string?)
+  fullName.vb: HyperVectorDB.HyperVectorDB.IndexDocument(String, HyperVectorDB.HyperVectorDB.DocumentPreprocessor, HyperVectorDB.HyperVectorDB.DocumentPostprocessor, String)
+  nameWithType: HyperVectorDB.IndexDocument(string, HyperVectorDB.DocumentPreprocessor?, HyperVectorDB.DocumentPostprocessor?, string?)
+  nameWithType.vb: HyperVectorDB.IndexDocument(String, HyperVectorDB.DocumentPreprocessor, HyperVectorDB.DocumentPostprocessor, String)
+- uid: HyperVectorDB.HyperVectorDB.IndexDocument(System.String,System.String,HyperVectorDB.HyperVectorDB.DocumentPreprocessor,HyperVectorDB.HyperVectorDB.DocumentPostprocessor)
+  name: IndexDocument(string, string, DocumentPreprocessor?, DocumentPostprocessor?)
+  href: api/HyperVectorDB.HyperVectorDB.html#HyperVectorDB_HyperVectorDB_IndexDocument_System_String_System_String_HyperVectorDB_HyperVectorDB_DocumentPreprocessor_HyperVectorDB_HyperVectorDB_DocumentPostprocessor_
+  commentId: M:HyperVectorDB.HyperVectorDB.IndexDocument(System.String,System.String,HyperVectorDB.HyperVectorDB.DocumentPreprocessor,HyperVectorDB.HyperVectorDB.DocumentPostprocessor)
+  name.vb: IndexDocument(String, String, DocumentPreprocessor, DocumentPostprocessor)
+  fullName: HyperVectorDB.HyperVectorDB.IndexDocument(string, string, HyperVectorDB.HyperVectorDB.DocumentPreprocessor?, HyperVectorDB.HyperVectorDB.DocumentPostprocessor?)
+  fullName.vb: HyperVectorDB.HyperVectorDB.IndexDocument(String, String, HyperVectorDB.HyperVectorDB.DocumentPreprocessor, HyperVectorDB.HyperVectorDB.DocumentPostprocessor)
+  nameWithType: HyperVectorDB.IndexDocument(string, string, HyperVectorDB.DocumentPreprocessor?, HyperVectorDB.DocumentPostprocessor?)
+  nameWithType.vb: HyperVectorDB.IndexDocument(String, String, HyperVectorDB.DocumentPreprocessor, HyperVectorDB.DocumentPostprocessor)
+- uid: HyperVectorDB.HyperVectorDB.IndexDocument*
+  name: IndexDocument
+  href: api/HyperVectorDB.HyperVectorDB.html#HyperVectorDB_HyperVectorDB_IndexDocument_
+  commentId: Overload:HyperVectorDB.HyperVectorDB.IndexDocument
+  isSpec: "True"
+  fullName: HyperVectorDB.HyperVectorDB.IndexDocument
+  nameWithType: HyperVectorDB.IndexDocument
+- uid: HyperVectorDB.HyperVectorDB.IndexDocumentFile(System.String,HyperVectorDB.HyperVectorDB.DocumentPreprocessor,HyperVectorDB.HyperVectorDB.DocumentPostprocessor,System.String)
+  name: IndexDocumentFile(string, DocumentPreprocessor?, DocumentPostprocessor?, string?)
+  href: api/HyperVectorDB.HyperVectorDB.html#HyperVectorDB_HyperVectorDB_IndexDocumentFile_System_String_HyperVectorDB_HyperVectorDB_DocumentPreprocessor_HyperVectorDB_HyperVectorDB_DocumentPostprocessor_System_String_
+  commentId: M:HyperVectorDB.HyperVectorDB.IndexDocumentFile(System.String,HyperVectorDB.HyperVectorDB.DocumentPreprocessor,HyperVectorDB.HyperVectorDB.DocumentPostprocessor,System.String)
+  name.vb: IndexDocumentFile(String, DocumentPreprocessor, DocumentPostprocessor, String)
+  fullName: HyperVectorDB.HyperVectorDB.IndexDocumentFile(string, HyperVectorDB.HyperVectorDB.DocumentPreprocessor?, HyperVectorDB.HyperVectorDB.DocumentPostprocessor?, string?)
+  fullName.vb: HyperVectorDB.HyperVectorDB.IndexDocumentFile(String, HyperVectorDB.HyperVectorDB.DocumentPreprocessor, HyperVectorDB.HyperVectorDB.DocumentPostprocessor, String)
+  nameWithType: HyperVectorDB.IndexDocumentFile(string, HyperVectorDB.DocumentPreprocessor?, HyperVectorDB.DocumentPostprocessor?, string?)
+  nameWithType.vb: HyperVectorDB.IndexDocumentFile(String, HyperVectorDB.DocumentPreprocessor, HyperVectorDB.DocumentPostprocessor, String)
+- uid: HyperVectorDB.HyperVectorDB.IndexDocumentFile(System.String,System.String,HyperVectorDB.HyperVectorDB.DocumentPreprocessor,HyperVectorDB.HyperVectorDB.DocumentPostprocessor)
+  name: IndexDocumentFile(string, string, DocumentPreprocessor?, DocumentPostprocessor?)
+  href: api/HyperVectorDB.HyperVectorDB.html#HyperVectorDB_HyperVectorDB_IndexDocumentFile_System_String_System_String_HyperVectorDB_HyperVectorDB_DocumentPreprocessor_HyperVectorDB_HyperVectorDB_DocumentPostprocessor_
+  commentId: M:HyperVectorDB.HyperVectorDB.IndexDocumentFile(System.String,System.String,HyperVectorDB.HyperVectorDB.DocumentPreprocessor,HyperVectorDB.HyperVectorDB.DocumentPostprocessor)
+  name.vb: IndexDocumentFile(String, String, DocumentPreprocessor, DocumentPostprocessor)
+  fullName: HyperVectorDB.HyperVectorDB.IndexDocumentFile(string, string, HyperVectorDB.HyperVectorDB.DocumentPreprocessor?, HyperVectorDB.HyperVectorDB.DocumentPostprocessor?)
+  fullName.vb: HyperVectorDB.HyperVectorDB.IndexDocumentFile(String, String, HyperVectorDB.HyperVectorDB.DocumentPreprocessor, HyperVectorDB.HyperVectorDB.DocumentPostprocessor)
+  nameWithType: HyperVectorDB.IndexDocumentFile(string, string, HyperVectorDB.DocumentPreprocessor?, HyperVectorDB.DocumentPostprocessor?)
+  nameWithType.vb: HyperVectorDB.IndexDocumentFile(String, String, HyperVectorDB.DocumentPreprocessor, HyperVectorDB.DocumentPostprocessor)
+- uid: HyperVectorDB.HyperVectorDB.IndexDocumentFile*
+  name: IndexDocumentFile
+  href: api/HyperVectorDB.HyperVectorDB.html#HyperVectorDB_HyperVectorDB_IndexDocumentFile_
+  commentId: Overload:HyperVectorDB.HyperVectorDB.IndexDocumentFile
+  isSpec: "True"
+  fullName: HyperVectorDB.HyperVectorDB.IndexDocumentFile
+  nameWithType: HyperVectorDB.IndexDocumentFile
+- uid: HyperVectorDB.HyperVectorDB.IndexNames
+  name: IndexNames
+  href: api/HyperVectorDB.HyperVectorDB.html#HyperVectorDB_HyperVectorDB_IndexNames
+  commentId: P:HyperVectorDB.HyperVectorDB.IndexNames
+  fullName: HyperVectorDB.HyperVectorDB.IndexNames
+  nameWithType: HyperVectorDB.IndexNames
+- uid: HyperVectorDB.HyperVectorDB.IndexNames*
+  name: IndexNames
+  href: api/HyperVectorDB.HyperVectorDB.html#HyperVectorDB_HyperVectorDB_IndexNames_
+  commentId: Overload:HyperVectorDB.HyperVectorDB.IndexNames
+  isSpec: "True"
+  fullName: HyperVectorDB.HyperVectorDB.IndexNames
+  nameWithType: HyperVectorDB.IndexNames
+- uid: HyperVectorDB.HyperVectorDB.Load
+  name: Load()
+  href: api/HyperVectorDB.HyperVectorDB.html#HyperVectorDB_HyperVectorDB_Load
+  commentId: M:HyperVectorDB.HyperVectorDB.Load
+  fullName: HyperVectorDB.HyperVectorDB.Load()
+  nameWithType: HyperVectorDB.Load()
+- uid: HyperVectorDB.HyperVectorDB.Load*
+  name: Load
+  href: api/HyperVectorDB.HyperVectorDB.html#HyperVectorDB_HyperVectorDB_Load_
+  commentId: Overload:HyperVectorDB.HyperVectorDB.Load
+  isSpec: "True"
+  fullName: HyperVectorDB.HyperVectorDB.Load
+  nameWithType: HyperVectorDB.Load
+- uid: HyperVectorDB.HyperVectorDB.QueryCosineSimilarity(System.String,System.Int32)
+  name: QueryCosineSimilarity(string, int)
+  href: api/HyperVectorDB.HyperVectorDB.html#HyperVectorDB_HyperVectorDB_QueryCosineSimilarity_System_String_System_Int32_
+  commentId: M:HyperVectorDB.HyperVectorDB.QueryCosineSimilarity(System.String,System.Int32)
+  name.vb: QueryCosineSimilarity(String, Integer)
+  fullName: HyperVectorDB.HyperVectorDB.QueryCosineSimilarity(string, int)
+  fullName.vb: HyperVectorDB.HyperVectorDB.QueryCosineSimilarity(String, Integer)
+  nameWithType: HyperVectorDB.QueryCosineSimilarity(string, int)
+  nameWithType.vb: HyperVectorDB.QueryCosineSimilarity(String, Integer)
+- uid: HyperVectorDB.HyperVectorDB.QueryCosineSimilarity*
+  name: QueryCosineSimilarity
+  href: api/HyperVectorDB.HyperVectorDB.html#HyperVectorDB_HyperVectorDB_QueryCosineSimilarity_
+  commentId: Overload:HyperVectorDB.HyperVectorDB.QueryCosineSimilarity
+  isSpec: "True"
+  fullName: HyperVectorDB.HyperVectorDB.QueryCosineSimilarity
+  nameWithType: HyperVectorDB.QueryCosineSimilarity
+- uid: HyperVectorDB.HyperVectorDB.Save
+  name: Save()
+  href: api/HyperVectorDB.HyperVectorDB.html#HyperVectorDB_HyperVectorDB_Save
+  commentId: M:HyperVectorDB.HyperVectorDB.Save
+  fullName: HyperVectorDB.HyperVectorDB.Save()
+  nameWithType: HyperVectorDB.Save()
+- uid: HyperVectorDB.HyperVectorDB.Save*
+  name: Save
+  href: api/HyperVectorDB.HyperVectorDB.html#HyperVectorDB_HyperVectorDB_Save_
+  commentId: Overload:HyperVectorDB.HyperVectorDB.Save
+  isSpec: "True"
+  fullName: HyperVectorDB.HyperVectorDB.Save
+  nameWithType: HyperVectorDB.Save

@@ -1,0 +1,218 @@
+{
+  "source_base_path": "/github/workspace/docs",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      }
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HyperVectorDB.Embedder.EmbedderOpenAI.OAIEmbeddingModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HyperVectorDB.Embedder.EmbedderOpenAI.OAIEmbeddingModel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HyperVectorDB.Embedder.EmbedderOpenAI.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HyperVectorDB.Embedder.EmbedderOpenAI.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HyperVectorDB.Embedder.EmbedderOpenAI_ADA_002.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HyperVectorDB.Embedder.EmbedderOpenAI_ADA_002.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HyperVectorDB.Embedder.IEmbedder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HyperVectorDB.Embedder.IEmbedder.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HyperVectorDB.Embedder.LmStudio.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HyperVectorDB.Embedder.LmStudio.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HyperVectorDB.Embedder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HyperVectorDB.Embedder.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HyperVectorDB.HVDBDocument.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HyperVectorDB.HVDBDocument.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HyperVectorDB.HVDBQueryResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HyperVectorDB.HVDBQueryResult.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HyperVectorDB.HyperVectorDB.DocumentPostprocessor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HyperVectorDB.HyperVectorDB.DocumentPostprocessor.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HyperVectorDB.HyperVectorDB.DocumentPreprocessor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HyperVectorDB.HyperVectorDB.DocumentPreprocessor.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HyperVectorDB.HyperVectorDB.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HyperVectorDB.HyperVectorDB.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HyperVectorDB.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HyperVectorDB.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".json": {
+          "relative_path": "api/toc.json"
+        },
+        ".html": {
+          "relative_path": "api/toc.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "auto-index.md",
+      "output": {
+        ".html": {
+          "relative_path": "auto-index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/getting-started.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/getting-started.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/introduction.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/introduction.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "docs/toc.yml",
+      "output": {
+        ".json": {
+          "relative_path": "docs/toc.json"
+        },
+        ".html": {
+          "relative_path": "docs/toc.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".json": {
+          "relative_path": "toc.json"
+        },
+        ".html": {
+          "relative_path": "toc.html"
+        }
+      },
+      "version": ""
+    }
+  ],
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}
