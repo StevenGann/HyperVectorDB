@@ -223,6 +223,19 @@ references:
   isSpec: "True"
   fullName: HyperVectorDB.Embedder.Gemini.GetVectors
   nameWithType: Gemini.GetVectors
+- uid: HyperVectorDB.Embedder.Gemini.MinimumRequestIntervalMs
+  name: MinimumRequestIntervalMs
+  href: api/HyperVectorDB.Embedder.Gemini.html#HyperVectorDB_Embedder_Gemini_MinimumRequestIntervalMs
+  commentId: P:HyperVectorDB.Embedder.Gemini.MinimumRequestIntervalMs
+  fullName: HyperVectorDB.Embedder.Gemini.MinimumRequestIntervalMs
+  nameWithType: Gemini.MinimumRequestIntervalMs
+- uid: HyperVectorDB.Embedder.Gemini.MinimumRequestIntervalMs*
+  name: MinimumRequestIntervalMs
+  href: api/HyperVectorDB.Embedder.Gemini.html#HyperVectorDB_Embedder_Gemini_MinimumRequestIntervalMs_
+  commentId: Overload:HyperVectorDB.Embedder.Gemini.MinimumRequestIntervalMs
+  isSpec: "True"
+  fullName: HyperVectorDB.Embedder.Gemini.MinimumRequestIntervalMs
+  nameWithType: Gemini.MinimumRequestIntervalMs
 - uid: HyperVectorDB.Embedder.IEmbedder
   name: IEmbedder
   href: api/HyperVectorDB.Embedder.IEmbedder.html
