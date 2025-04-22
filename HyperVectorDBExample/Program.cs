@@ -1,5 +1,6 @@
 ﻿using OpenAI.Files;
 using System.Diagnostics;
+using System.Text.Json;
 
 namespace HyperVectorDBExample
 {
@@ -18,6 +19,48 @@ namespace HyperVectorDBExample
 
         // State variable for markdown preprocessing
         private static bool skippingBlock = false;
+
+        private static string LoadApiKey()
+        {
+            try
+            {
+                string secretsPath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "secrets.json");
+                if (!File.Exists(secretsPath))
+                {
+                    Console.WriteLine("secrets.json not found. Creating template file...");
+                    var template = new Dictionary<string, string>
+                    {
+                        { "GeminiApiKey", "YOUR_GEMINI_API_KEY_HERE" }
+                    };
+                    string templateJson = JsonSerializer.Serialize(template, new JsonSerializerOptions { WriteIndented = true });
+                    File.WriteAllText(secretsPath, templateJson);
+                    Console.WriteLine($"Template secrets.json created at: {secretsPath}");
+                    Console.WriteLine("Please update the GeminiApiKey in secrets.json with your actual API key.");
+                    throw new FileNotFoundException("Please update secrets.json with your Gemini API key and restart the application.");
+                }
+
+                string jsonContent = File.ReadAllText(secretsPath);
+                var secrets = JsonSerializer.Deserialize<Dictionary<string, string>>(jsonContent);
+                
+                if (secrets == null || !secrets.ContainsKey("GeminiApiKey"))
+                {
+                    throw new KeyNotFoundException("GeminiApiKey not found in secrets.json");
+                }
+
+                string apiKey = secrets["GeminiApiKey"];
+                if (apiKey == "YOUR_GEMINI_API_KEY_HERE")
+                {
+                    throw new InvalidOperationException("Please update the GeminiApiKey in secrets.json with your actual API key.");
+                }
+
+                return apiKey;
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error loading API key: {ex.Message}");
+                throw;
+            }
+        }
 
         /// <summary>
         /// Custom preprocessor for document indexing that handles markdown-specific formatting
@@ -106,8 +149,10 @@ namespace HyperVectorDBExample
         /// </summary>
         private static void InitializeDatabase()
         {
-            // Initialize database with LMStudio embedder, 32 dimensions
-            DB = new HyperVectorDB.HyperVectorDB(new HyperVectorDB.Embedder.LmStudio(), "TestDatabase", 32);
+            string apiKey = LoadApiKey();
+            
+            // Initialize database with Gemini embedder, 32 dimensions
+            DB = new HyperVectorDB.HyperVectorDB(new HyperVectorDB.Embedder.Gemini(apiKey), "TestDatabase", 32);
 
             if (Directory.Exists("TestDatabase"))
             {
