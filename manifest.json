@@ -42,6 +42,16 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/HyperVectorDB.Embedder.Gemini.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HyperVectorDB.Embedder.Gemini.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/HyperVectorDB.Embedder.IEmbedder.yml",
       "output": {
         ".html": {

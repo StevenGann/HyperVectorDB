@@ -166,6 +166,63 @@ references:
   commentId: F:HyperVectorDB.Embedder.EmbedderOpenAI_ADA_002.TotalTokens
   fullName: HyperVectorDB.Embedder.EmbedderOpenAI_ADA_002.TotalTokens
   nameWithType: EmbedderOpenAI_ADA_002.TotalTokens
+- uid: HyperVectorDB.Embedder.Gemini
+  name: Gemini
+  href: api/HyperVectorDB.Embedder.Gemini.html
+  commentId: T:HyperVectorDB.Embedder.Gemini
+  fullName: HyperVectorDB.Embedder.Gemini
+  nameWithType: Gemini
+- uid: HyperVectorDB.Embedder.Gemini.#ctor(System.String,System.String)
+  name: Gemini(string, string)
+  href: api/HyperVectorDB.Embedder.Gemini.html#HyperVectorDB_Embedder_Gemini__ctor_System_String_System_String_
+  commentId: M:HyperVectorDB.Embedder.Gemini.#ctor(System.String,System.String)
+  name.vb: New(String, String)
+  fullName: HyperVectorDB.Embedder.Gemini.Gemini(string, string)
+  fullName.vb: HyperVectorDB.Embedder.Gemini.New(String, String)
+  nameWithType: Gemini.Gemini(string, string)
+  nameWithType.vb: Gemini.New(String, String)
+- uid: HyperVectorDB.Embedder.Gemini.#ctor*
+  name: Gemini
+  href: api/HyperVectorDB.Embedder.Gemini.html#HyperVectorDB_Embedder_Gemini__ctor_
+  commentId: Overload:HyperVectorDB.Embedder.Gemini.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: HyperVectorDB.Embedder.Gemini.Gemini
+  fullName.vb: HyperVectorDB.Embedder.Gemini.New
+  nameWithType: Gemini.Gemini
+  nameWithType.vb: Gemini.New
+- uid: HyperVectorDB.Embedder.Gemini.GetVector(System.String)
+  name: GetVector(string)
+  href: api/HyperVectorDB.Embedder.Gemini.html#HyperVectorDB_Embedder_Gemini_GetVector_System_String_
+  commentId: M:HyperVectorDB.Embedder.Gemini.GetVector(System.String)
+  name.vb: GetVector(String)
+  fullName: HyperVectorDB.Embedder.Gemini.GetVector(string)
+  fullName.vb: HyperVectorDB.Embedder.Gemini.GetVector(String)
+  nameWithType: Gemini.GetVector(string)
+  nameWithType.vb: Gemini.GetVector(String)
+- uid: HyperVectorDB.Embedder.Gemini.GetVector*
+  name: GetVector
+  href: api/HyperVectorDB.Embedder.Gemini.html#HyperVectorDB_Embedder_Gemini_GetVector_
+  commentId: Overload:HyperVectorDB.Embedder.Gemini.GetVector
+  isSpec: "True"
+  fullName: HyperVectorDB.Embedder.Gemini.GetVector
+  nameWithType: Gemini.GetVector
+- uid: HyperVectorDB.Embedder.Gemini.GetVectors(System.String[])
+  name: GetVectors(string[])
+  href: api/HyperVectorDB.Embedder.Gemini.html#HyperVectorDB_Embedder_Gemini_GetVectors_System_String___
+  commentId: M:HyperVectorDB.Embedder.Gemini.GetVectors(System.String[])
+  name.vb: GetVectors(String())
+  fullName: HyperVectorDB.Embedder.Gemini.GetVectors(string[])
+  fullName.vb: HyperVectorDB.Embedder.Gemini.GetVectors(String())
+  nameWithType: Gemini.GetVectors(string[])
+  nameWithType.vb: Gemini.GetVectors(String())
+- uid: HyperVectorDB.Embedder.Gemini.GetVectors*
+  name: GetVectors
+  href: api/HyperVectorDB.Embedder.Gemini.html#HyperVectorDB_Embedder_Gemini_GetVectors_
+  commentId: Overload:HyperVectorDB.Embedder.Gemini.GetVectors
+  isSpec: "True"
+  fullName: HyperVectorDB.Embedder.Gemini.GetVectors
+  nameWithType: Gemini.GetVectors
 - uid: HyperVectorDB.Embedder.IEmbedder
   name: IEmbedder
   href: api/HyperVectorDB.Embedder.IEmbedder.html
