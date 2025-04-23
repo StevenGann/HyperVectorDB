@@ -151,6 +151,37 @@ namespace HyperVectorDB
             documents.Clear();
             ResetCaches();
         }
+
+        /// <summary>
+        /// Gets the document at the specified index.
+        /// </summary>
+        /// <param name="index">The zero-based index of the document to get.</param>
+        /// <returns>The document at the specified index.</returns>
+        /// <exception cref="ArgumentOutOfRangeException">Thrown when the index is out of range.</exception>
+        public HVDBDocument GetDocument(int index)
+        {
+            if (index < 0 || index >= documents.Count)
+            {
+                throw new ArgumentOutOfRangeException(nameof(index));
+            }
+            return documents[index];
+        }
+
+        /// <summary>
+        /// Gets the vector at the specified index.
+        /// </summary>
+        /// <param name="index">The zero-based index of the vector to get.</param>
+        /// <returns>The vector at the specified index.</returns>
+        /// <exception cref="ArgumentOutOfRangeException">Thrown when the index is out of range.</exception>
+        public double[] GetVector(int index)
+        {
+            if (index < 0 || index >= vectors.Count)
+            {
+                throw new ArgumentOutOfRangeException(nameof(index));
+            }
+            return vectors[index];
+        }
+
         public void ResetCaches()
         {
             queryCacheCosineSimilarity.Clear();

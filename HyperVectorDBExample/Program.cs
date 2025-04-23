@@ -41,7 +41,7 @@ namespace HyperVectorDBExample
 
                 string jsonContent = File.ReadAllText(secretsPath);
                 var secrets = JsonSerializer.Deserialize<Dictionary<string, string>>(jsonContent);
-                
+
                 if (secrets == null || !secrets.ContainsKey("GeminiApiKey"))
                 {
                     throw new KeyNotFoundException("GeminiApiKey not found in secrets.json");
@@ -150,7 +150,7 @@ namespace HyperVectorDBExample
         private static void InitializeDatabase()
         {
             string apiKey = LoadApiKey();
-            
+
             // Initialize database with Gemini embedder, 32 dimensions
             DB = new HyperVectorDB.HyperVectorDB(new HyperVectorDB.Embedder.Gemini(apiKey), "TestDatabase", 32);
 
@@ -201,6 +201,15 @@ namespace HyperVectorDBExample
             {
                 DB.IndexDocument(doc);
             }
+
+            // Example: Remove all documents containing the word "test"
+            int removed = db.Purge(doc => doc.Contains("cats"));
+
+            // Example: Remove all empty documents
+            int removed = db.Purge(doc => string.IsNullOrWhiteSpace(doc));
+
+            // Example: Remove documents matching a regex pattern
+            int removed = db.Purge(doc => System.Text.RegularExpressions.Regex.IsMatch(doc, @"\b\d{3}-\d{2}-\d{4}\b"));
 
             DB.Save();
         }

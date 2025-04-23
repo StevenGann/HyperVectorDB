@@ -244,6 +244,53 @@ namespace HyperVectorDB {
 		}
 
 		/// <summary>
+		/// Removes documents from all indexes based on a predicate function.
+		/// </summary>
+		/// <param name="predicate">A function that takes a document string and returns true if the document should be removed.</param>
+		/// <returns>The total number of documents removed.</returns>
+		public int Purge(Func<string, bool> predicate)
+		{
+			if (predicate == null)
+			{
+				throw new ArgumentNullException(nameof(predicate));
+			}
+
+			int totalRemoved = 0;
+			foreach (var index in Indexes.Values)
+			{
+				// Create a list of documents to remove to avoid modifying the collection while iterating
+				var documentsToRemove = new List<HVDBDocument>();
+				var vectorsToRemove = new List<double[]>();
+
+				// Find documents that match the predicate
+				for (int i = 0; i < index.Count; i++)
+				{
+					if (predicate(index.GetDocument(i).DocumentString))
+					{
+						documentsToRemove.Add(index.GetDocument(i));
+						vectorsToRemove.Add(index.GetVector(i));
+					}
+				}
+
+				// Remove the documents and their corresponding vectors
+				foreach (var doc in documentsToRemove)
+				{
+					try
+					{
+						index.Remove(doc);
+						totalRemoved++;
+					}
+					catch (Exception e)
+					{
+						Console.Error.WriteLine($"Error removing document from index {index.Name}: {e.Message}");
+					}
+				}
+			}
+
+			return totalRemoved;
+		}
+
+		/// <summary>
 		/// Saves the entire database to disk. Every index is stored in its own files.
 		/// The files will not be overwritten if the index hasn't changed since a `Load()` or `Save()`.
 		/// </summary>
@@ -308,7 +355,6 @@ namespace HyperVectorDB {
 			var newresult = new HVDBQueryResult(sorted.Select(x => x.Value).ToList(), sorted.Select(x => x.Key).ToList());
 			return newresult;
 		}
-
 
 
 		private static UInt64 StringHash(string text) {
